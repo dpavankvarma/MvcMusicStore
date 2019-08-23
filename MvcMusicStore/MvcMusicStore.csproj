@@ -364,4 +364,8 @@
   </Target>
   <Target Name="AfterBuild">
   </Target> -->
+        </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
 </Project>
